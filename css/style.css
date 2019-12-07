@@ -1,0 +1,81 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Homepage slide Section Start */
+.homepage-slide {
+	margin-top: 200px;
+}
+.single-slide-item{
+	background-image: url(../img/bgs.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+	margin-bottom: 200px;
+	position:relative;
+}
+.slide-text-area {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.slide-text {
+	background-color: #2185c8;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-right: 150px;
+	font-size: 20px;
+	line-height: 1.8;
+	position: relative;
+}
+.slide-text h2 {
+  font-family: "sans-serif";
+  font-size: 50px;
+}
+.border-btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+.slide-text::before {
+	content: "";
+	position: absolute;
+	left: -1000%;
+	top: 0;
+	height: 100%;
+	width: 1000%;
+	background: #2185c8;
+}
+.slide-text:after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50px;
+  background: #2185c8;
+  height: 50px;
+  width: 50px;
+  transform: rotate(45deg);
+}
+/*  Homepage slide Section Stop */
